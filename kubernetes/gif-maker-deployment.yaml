@@ -16,6 +16,8 @@ spec:
         - name: gif-maker
           image: "gcr.io/bretmcg-labs/gif-maker:0.0.3"
           imagePullPolicy: Always
+          ports:
+            - containerPort: 80
           env:
             - name: BUCKET
               valueFrom:
