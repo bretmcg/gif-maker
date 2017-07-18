@@ -13,7 +13,7 @@ git tag -d 0.0.1
 git push --delete origin 0.0.1
 
 
-# Just once.
+# Just once per env.
+# kubectl create secret generic gif-maker --from-file=/var/run/secret/cloud.google.com/service-account.json
 # kubectl expose deployment gif-maker --type=LoadBalancer --name=gif-maker-service
-
 
