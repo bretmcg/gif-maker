@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: gif-maker
-          image: "gcr.io/bretmcg-labs/gif-maker:0.0.1" 
+          image: "gcr.io/bretmcg-labs/gif-maker:0.0.3"
           imagePullPolicy: Always
           env:
             - name: BUCKET
