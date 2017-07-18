@@ -1,4 +1,4 @@
 gif-maker -http ":8080" \
-  -bucket gif-maker-dev \
-  -database "projects/hightowerlabs/instances/gif-maker/databases/dev" \
-  -project-id hightowerlabs
+  -bucket bretmcg-gif-maker-dev \
+  -database "projects/bretmcg-labs/instances/gif-maker/databases/dev" \
+  -project-id bretmcg-labs

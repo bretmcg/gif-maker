@@ -1,0 +1,1 @@
+curl -F "images=@frame_0.gif" -F "images=@frame_50.gif" -F "images=@frame_100.gif" -F "images=@frame_150.gif" -F "images=@frame_200.gif" -F "images=@frame_250.gif" -F "images=@frame_300.gif" -F "images=@frame_350.gif" http://localhost:8080
